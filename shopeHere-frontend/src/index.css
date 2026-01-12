@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+a.active {
+  @apply text-red-400;
+}
+
+* {
+  scrollbar-width: none;
+}
