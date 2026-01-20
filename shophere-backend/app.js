@@ -12,7 +12,7 @@ const cartRoute = require("./routes/cartRoutes");
 const MONGO_URI =
   "mongodb+srv://rohitsingh:shophere@cluster0.i5jkd5j.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
-const Port = 5000;
+const Port =  5000;
 
 const app = express();
 app.use(express.urlencoded());
