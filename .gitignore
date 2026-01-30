@@ -1,0 +1,16 @@
+# Node
+node_modules/
+
+# Env files
+.env
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+shophere-backend/.env
+shophere-backend/node_modules/
