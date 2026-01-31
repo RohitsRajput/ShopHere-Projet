@@ -1,19 +1,14 @@
-import { BrowserRouter } from "react-router-dom";
-import { createRoot } from "react-dom/client";
-import "./index.css";
+import React from "react";
+import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
-
-import AuthContext from "./context/AuthContext";
-import UserContext from "./context/userContext";
-import ShopContext from "./context/ShopContext";
+import "./index.css";
 
 import AuthContext from "./context/AuthContext.jsx";
 import UserContext from "./context/userContext.jsx";
 import ShopContext from "./context/ShopContext.jsx";
 
-
-createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
     <AuthContext>
       <UserContext>
         <ShopContext>
@@ -21,5 +16,5 @@ createRoot(document.getElementById("root")).render(
         </ShopContext>
       </UserContext>
     </AuthContext>
-  </BrowserRouter>
+  </React.StrictMode>,
 );
