@@ -4,9 +4,10 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./App.jsx";
 import "./index.css";
 
-import AuthContext from "./context/AuthContext.jsx";
-import UserContext from "./context/userContext.jsx";
-import ShopContext from "./context/ShopContext.jsx";
+import AuthContext from "./context/AuthContext";
+import UserContext from "./context/UserContext";
+import ShopContext from "./context/ShopContext";
+
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>

@@ -1,6 +1,6 @@
 import React, { createContext, useState, useEffect, useContext } from "react";
 import axios from "axios";
-import { authDataContext } from "./authContext"; // adjust path if needed
+import { authDataContext } from "./AuthContext"; // adjust path if needed
 
 export const userDataContext = createContext();
 
@@ -40,4 +40,5 @@ function UserContext({ children }) {
   );
 }
 
-export default UserContext;
+export default UserContext
+;

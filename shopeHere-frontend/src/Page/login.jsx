@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { GoEye } from "react-icons/go";
 import { FaRegEyeSlash } from "react-icons/fa";
 import { useContext } from "react";
-import { authDataContext } from "../context/AuthContext.jsx";
+import { authDataContext } from "../context/AuthContext";
 import axios from "axios";
-import { userDataContext } from "../context/userContext.jsx";
+import { userDataContext } from "../context/UserContext";
 import { useNavigate } from "react-router-dom";
 
 function Login() {

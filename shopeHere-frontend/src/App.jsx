@@ -8,7 +8,8 @@ import Collection from "./Page/collection";
 import About from "./Page/about";
 import Contect from "./Page/contect";
 import ProductDetails from "./Page/productDetails";
-import { userDataContext } from "./context/userContext";
+import { userDataContext } from "./context/UserContext";
+
 import Order from "./Page/Order";
 
 function App() {
