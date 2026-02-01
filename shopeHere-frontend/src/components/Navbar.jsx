@@ -9,7 +9,7 @@ import { userDataContext } from "../context/UserContext";
 import { authDataContext } from "../context/AuthContext";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
-import { shopDataContext } from "../context/ShopContext.jsx";
+import { shopDataContext } from "../context/ShopContext";
 
 function Navbar() {
   const { getCurrentUser, userData, setUserData } = useContext(userDataContext);
